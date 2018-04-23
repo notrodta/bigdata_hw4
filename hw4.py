@@ -15,8 +15,5 @@ def group_restaurants():
 
     table.show(table.count())
 
-
-#group_restaurants()
-
 if __name__ == '__main__':
     group_restaurants()

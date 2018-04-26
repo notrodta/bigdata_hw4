@@ -1,4 +1,4 @@
-#import sys
+import sys
 from pyspark import SparkContext
 from pyspark.sql import SparkSession
 
@@ -14,7 +14,7 @@ def group_restaurants():
     table.show(table.count())
 
 if __name__ == '__main__':
-    #reload(sys)
-    #sys.setdefaultencoding('utf8')
+    reload(sys)
+    sys.setdefaultencoding('utf8')
 
     group_restaurants()
